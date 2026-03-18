@@ -1,0 +1,49 @@
+# Apresentação - Laboratório 03
+
+Esta pasta contém as imagens para a apresentação do laboratório 03.
+
+## Imagens disponíveis:
+- 10.png
+- 11.png
+- 12.png
+- 13.png
+- 14.png
+- 15.png
+- 16.png
+- 17.png
+- 18.png
+- 19.png
+- 1.png
+- 20.png
+- 21.png
+- 22.png
+- 23.png
+- 2.png
+- 3.png
+- 4.png
+- 5.png
+- 6.png
+- 7.png
+- 8.png
+- 9.png
+
+## Total de imagens: 23
+
+## Como gerar os slides:
+Para gerar os slides em PDF, PPTX e HTML, use os seguintes comandos:
+
+```bash
+cd labs/lab03/presentation
+
+# Gerar PDF
+pandoc ../lab03.md -o slides.pdf --pdf-engine=xelatex -V mainfont="DejaVu Sans"
+
+# Gerar PowerPoint
+pandoc ../lab03.md -o slides.pptx
+
+# Gerar HTML
+pandoc ../lab03.md -o slides.html --self-contained
+```
+
+## Observação:
+As imagens estão numeradas sequencialmente (1.png, 2.png, etc.) e devem ser referenciadas no arquivo ../lab03.md como `image/X.png`.

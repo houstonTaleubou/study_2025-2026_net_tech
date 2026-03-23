@@ -1,0 +1,12 @@
+---
+title: "Отчёт по лабораторной работе 8"
+subtitle: "Адресация IPv4 и IPv6. Настройка маршрутизации"
+author: "Талебу Тенке Франк Устон"
+lang: ru-RU
+toc-title: "Содержание"
+toc: true
+toc-depth: 2
+lof: true
+bibliography: bib/cite.bib
+csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
+---
